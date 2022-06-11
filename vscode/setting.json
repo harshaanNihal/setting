@@ -1,0 +1,239 @@
+{
+  "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnSave": false,
+  "diffEditor.codeLens": true,
+  "editor.fontFamily": "Fira Code iScript",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 25,
+  "editor.fontWeight": 400,
+  "editor.tabSize": 2,
+  "editor.cursorWidth": 5,
+  "editor.letterSpacing": 0.5,
+  "editor.minimap.enabled": false,
+  "editor.roundedSelection": false,
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.cursorBlinking": "solid",
+  "editor.renderWhitespace": "all",
+  "editor.accessibilitySupport": "off",
+  "editor.scrollBeyondLastLine": false,
+  "editor.useTabStops": true,
+  "editor.cursorStyle": "block",
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.showFoldingControls": "always",
+  "editor.find.seedSearchStringFromSelection": true,
+  "editor.matchBrackets": "near",
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.showSlider": "always",
+  "editor.colorDecorators": true,
+  "editor.hideCursorInOverviewRuler": false,
+  "editor.lightbulb.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.scrollBeyondLastColumn": 0,
+  "editor.minimap.renderCharacters": false,
+  "editor.quickSuggestionsDelay": 500,
+  "editor.parameterHints.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [{
+      "scope": [
+        //following will be in italic (=FlottFlott)
+        "comment",
+        "entity.name.type.class", //class names
+        "keyword", //import, export, return
+        "constant", //String, Number, Boolean, this, super
+        "storage.modifier", //static keyword
+        "storage.type.class.js", //class keyword
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        //following will be excluded from italics (VSCode has some defaults for italics)
+        "invalid",
+        "keyword.operator",
+        "constant.numeric.css",
+        "keyword.other.unit.px.css",
+        "constant.numeric.decimal.js",
+        "constant.numeric.json"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    }
+  ]
+},
+"editor.rulers": [
+  100,
+  100
+],
+
+"workbench.statusBar.visible": true,
+"workbench.activityBar.visible": true,
+"workbench.colorTheme": "Dracula Soft",
+"workbench.iconTheme": "material-icon-theme",
+"workbench.colorCustomizations": {
+  "statusBar.background": "#333333",
+  "statusBar.noFolderBackground": "#333333",
+  "statusBar.debuggingBackground": "#263238",
+  "activityBarBadge.background": "#616161",
+        "list.activeSelectionForeground": "#616161",
+        "list.inactiveSelectionForeground": "#616161",
+        "list.highlightForeground": "#616161",
+        "scrollbarSlider.activeBackground": "#61616150",
+        "editorSuggestWidget.highlightForeground": "#616161",
+        "textLink.foreground": "#616161",
+        "progressBar.background": "#616161",
+        "pickerGroup.foreground": "#616161",
+        "tab.activeBorder": "#616161",
+        "notificationLink.foreground": "#616161"
+        },
+    "workbench.editor.showTabs": true,
+    "workbench.commandPalette.preserveInput": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": true,
+
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/.git": true,
+      "**/.hg": true,
+      "**/.next": true,
+      "**/.svn": false,
+      "**/CVS": true
+    },
+    "files.hotExit": "onExitAndWindowClose",
+    "files.insertFinalNewline": true,
+    "files.defaultLanguage": "javascript",
+    "indentRainbow.includedLanguages": ["javascript",
+        "html", "css","python","json","ruby"],
+    "indentRainbow.colors": [
+           "rgba(16,16,16,0.1)",
+           "rgba(16,16,16,0.2)",
+           "rgba(16,16,16,0.3)",
+           "rgba(16,16,16,0.4)",
+           "rgba(16,16,16,0.5)",
+           "rgba(16,16,16,0.6)",
+           "rgba(16,16,16,0.7)",
+           "rgba(16,16,16,0.8)",
+           "rgba(16,16,16,0.9)",
+           "rgba(16,16,16,1.0)"
+          ],
+    "breadcrumbs.enabled": true,
+    "css.validate": false,
+    "extensions.ignoreRecommendations": true,
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.autoUpdate": true,
+    "emmet.syntaxProfiles": {
+        "javascript": "html"
+         },
+    "emmet.includeLanguages": {
+          "javascript": "javascriptreact"
+         },
+    "explorer.sortOrder": "default",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.enableCommitSigning": false,
+    "git.ignoreMissingGitWarning": true,
+    "html.format.enable": true,
+    "html.format.preserveNewLines": true,
+    "html.format.wrapLineLength": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "less.validate": false,
+    "material-icon-theme.activeIconPack": "react",
+    "window.openFilesInNewWindow": "off",
+    "window.openFoldersInNewWindow": "on",
+    "window.restoreWindows": "all",
+    "window.title": "🍁 ${rootName}${separator}${activeEditorShort} 🍁",
+    "scss.validate": false,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.defaultProfile.osx": "/usr/local/bin/zsh",
+    "terminal.external.osxExec": "Hyper.app",
+    "terminal.integrated.copyOnSelection": true,
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "editor.autoClosingQuotes": "always",
+    "workbench.editor.highlightModifiedTabs": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.inlineValues": true,
+    "better-comments.highlightPlainText": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "html.format.indentInnerHtml": true,
+    "less.lint.boxModel": "warning",
+    "less.lint.duplicateProperties": "warning",
+    "material-icon-theme.showWelcomeMessage": false,
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+      // "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[javascript]": {
+      "editor.wordWrap": "on",
+      "editor.wordWrapColumn": 120,
+      "editor.quickSuggestions": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.singleQuote": true,
+    "prettier.jsxBracketSameLine": false,
+    "prettier.bracketSpacing": true,
+    "prettier.tabWidth": 2,
+    "prettier.semi": false,
+    "prettier.tslintIntegration": true,
+    "editor.largeFileOptimizations": false,
+    "prettier.enableDebugLogs": true,
+    "prettier.printWidth": 250,
+    "prettier.proseWrap": "never",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "security.workspace.trust.untrustedFiles": "open",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "todo-tree.general.tags": [
+      "BUG",
+      "HACK",
+      "FIXME",
+      "TODO",
+      "XXX",
+      "[ ]",
+      "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "files.associations": {
+      "*.jsx": "javascript",
+      "*.js": "javascriptreact"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": true,
+      "markdown": false,
+      "ruby": true,
+      "javascript": false,
+      "javascriptreact": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "sync.forceUpload": true,
+    "sync.gist": "f10e2eef604d7817b0d411a987d4375c",
+    "[css]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "bracketPairColorizer.depreciation-notice": false,
+    "editor.guides.indentation": false,
+    "[ruby]": {
+      "editor.defaultFormatter": "misogi.ruby-rubocop"
+    },
+    "explorer.confirmDelete": false,
+    "[erb]": {
+      "editor.defaultFormatter": "mbessey.vscode-rufo"
+    },
+}

@@ -1,0 +1,35 @@
+[user]
+	email = harshaan.n.khan@gmail.com
+	name = Harshaan Nihal Khan
+[includeIf "gitdir:~/Workspace/"]  # set up diff gitconfig if you are in diff folder
+  path = ~/Workspace/.gitconfig
+[core]
+	excludesfile = ~/.gitignore
+	pager = less
+	editor = code --wait  # USE VS code as editor
+[branch]
+	autosetuprebase = always
+[alias]
+  wow = log --all --graph --decorate --oneline --simplify-by-decoration
+[color]
+  ui = always
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+[color "diff-highlight"]
+  oldNormal = red bold
+  oldHighlight = "red bold 52"
+  newNormal = "green bold"
+  newHighlight = "green bold 22"
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "status"]
+  added = yellow
+  changed = red
+  untracked = cyan
